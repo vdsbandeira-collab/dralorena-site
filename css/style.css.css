@@ -1,0 +1,116 @@
+:root {
+  --verde: #A8C3B4;
+  --rosa: #F4D9DA;
+  --cinza: #333;
+  --fundo: #FAFAFA;
+  --azul: #3A5A60;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--fundo);
+  color: var(--cinza);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-family: cursive;
+  color: var(--azul);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--cinza);
+  font-weight: 500;
+}
+
+.hero {
+  background: var(--verde);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: var(--rosa);
+  padding: 12px 24px;
+  text-decoration: none;
+  color: var(--cinza);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-sec {
+  background: none;
+  border: 1px solid var(--rosa);
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--cinza);
+  border-radius: 5px;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--azul);
+}
+
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.blog-posts {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--azul);
+  color: white;
+}
